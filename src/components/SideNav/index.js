@@ -41,7 +41,7 @@ const SideNav = () => {
     <div className='side-nav'>
 
         <div className='section-title'>
-            <h3>Category</h3>
+            <h3>classes</h3>
         </div>
 
 
