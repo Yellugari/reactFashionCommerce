@@ -20,7 +20,7 @@ const TopNav = function()
         <div className='header bg-dark'>
         <div className='topnavrow row'>
           <div className='brand my-1'>
-            <h1> Coforge Rewards Shop </h1>
+            <h1> Coforge shopping </h1>
           </div>
          {/*
          
