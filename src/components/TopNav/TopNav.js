@@ -46,7 +46,7 @@ const TopNav = function()
             <ul className="p-0">
  
            
-           <li className="list-icon" > <Link to="/cart"> <FontAwesomeIcon icon="fa fa-shopping-cart" style={{color:"white"}}/>{cartItemCount>0 && <div className='cart-item-count'><p>{cartItemCount}</p></div>}</Link> </li>
+           <li className="list-icon" > <Link to="/cart"> {cartItemCount>0 && <div className='cart-item-count'><p>{cartItemCount}  <FontAwesomeIcon icon="fa fa-shopping-cart"  style={{color:"white"}}></FontAwesomeIcon></p></div>}</Link> </li>
          
             </ul>
 
